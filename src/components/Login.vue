@@ -13,6 +13,7 @@
         <link rel="stylesheet" type="text/css" href="style.css"> 
         <body>
         <img src="Login Logo.jpg" alt="no image" width="150cm" height="75cm">
+        <img src="./../assets/Login Background.jpg" alt="no image">
         <div class="loginbox">
             <h2>Welcome Back</h2>
             <form>
@@ -21,8 +22,7 @@
                 <p>Password</p>
                 <input type="text" name="" placeholder="Enter Password">
                 <input type="submit" name="" value="Login">
-                <a href="#">Lost your password?</a><br>
-                <a href="#">Don't have an account?</a>
+                <p>Lost your password?<a href="#">Don't have an account</a></p>
             </form>
         </div>
     </body>   
