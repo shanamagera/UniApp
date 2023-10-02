@@ -2,34 +2,29 @@
 
 </script>
 
-<template> 
-    <div id="About">
-        <h1>About</h1>
+<template>
+    <div id = 'about'>
+        <v-container>
+            <v-container>
+                <v-layout>
+                    <div class="heading" style="width: 90%; display: flex; justify-content: center; align-items: center;flex-direction: column; text-align: center; margin: 20px auto;">
 
-
-        <html>
-    <head>
-        <title>About Us Page</title>
-        <meta charset="Utf-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="style.css"> 
-    </head>
-    <body>
-        <div class="heading">
-            <h1>About Us</h1>
         </div>
         <div class="container">
-            <section class="about">
-                <div class="about-image">
-                    <img src="about us.jpeg" alt="no image">
+            <section class="about" style="display: flex; justify-content: space-between; align-items: center; flex: wrap;">
+                <div class="about-image" style="flex: 1; margin-right: 40px; overflow: hidden;">
+                    <img src="about us.jpeg" alt="no image" style="height: 10cm; display: block; width: 20cm;">
                 </div>
-                <div class="about-content">
-                    <h2>Cambridge at a Glance</h2>
-                    <p>The University of Cambridge has more than 20,000 students, from 140
-                        countries. Find out more about our unique institution.There are 31 
-                        Colleges, six Schools and over 150 Faculties and Departments that 
-                        make up the University of Cambridge, covering a vast array of subjects
-                        and specialised areas of research. Find out how we work together. </p>
+                <div class="about-content" style="flex: 1;">
+                    <h2 style="font-size: 23px; margin-bottom: 15px;">About Us</h2>
+                    <p style="font-size: 18px; height: 1.5;">Mandela Umiversity has more than 20,000 <br>
+                                                            students, from 140 countries. Find out more <br>
+                                                            about our unique institution. <br>
+                                                            There are 31 Colleges, six Schools and over <br>
+                                                            150 Faculties and Departments that make up <br>
+                                                            the Mandela University, covering a vast array <br>
+                                                            of subjects and specialised areas of research. <br> 
+                                                            Find out how we work together. </p>
                         <a href="" class="read-more"> Read More</a>
 
                 </div>
@@ -37,9 +32,8 @@
             </section>
 
         </div>
-    </body>
-</html>
-
-
+                </v-layout>
+            </v-container>
+        </v-container>
     </div>
 </template>
